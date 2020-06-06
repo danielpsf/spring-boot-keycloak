@@ -26,6 +26,8 @@ dependencies {
 	// Security
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.keycloak:keycloak-spring-boot-starter:10.0.2'
+	implementation 'org.bouncycastle:bcprov-jdk15on:1.65.01'
+
 
 	// database
 	implementation 'com.h2database:h2:1.4.200'
