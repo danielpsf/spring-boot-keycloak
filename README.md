@@ -10,6 +10,7 @@ I'll be adding a docker-compose to automate everything around here, but so far, 
 1. Configure a role called `users`
 1. Associate the created user to the `users` role
 1. Configure a client called `spring-app`
+    1. Add `http://localhost:8081/*` as value for the field *Valid Redirect URIs*
 
 ### References
 
